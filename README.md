@@ -27,13 +27,26 @@ Be prepared to demonstrate your understanding of this week's concepts by answeri
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
 
+forEach doesn not need a reurn statment or return a new aray, map does need a return statement and returns a new array, but oes not change the original array
+
 2. Explain the difference between a callback and a higher order function.
+
+a higer order function is a function in which the callback in used in an the parameters
 
 3. What is closure?
 
+the variables and function we have access to for functions. you can go outward but not inward
+
 4. Describe the four rules of the 'this' keyword.
 
+global/window- the entirety of the javascript
+implicit -  it directs to certain variable directly to the left of the dot
+explicit - using the the call or apply, it directs the exact variable to use
+new binding - it makes a new variable based off a previous variable
+
 5. Why do we need super() in an extended class?
+
+to pass on the objects from the variable that was extended
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
